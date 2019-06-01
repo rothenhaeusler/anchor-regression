@@ -4,7 +4,6 @@ rm(list=ls())
 library(glmnet)
 library(clustermq)
 
-setwd("~/Documents/GitLabETH/jopenido/gtex/")
 load("all_tissues.preprocessed.data.RData.gz")
 
 # Intersect the genes across all data sets
